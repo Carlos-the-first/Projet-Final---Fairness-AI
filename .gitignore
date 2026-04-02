@@ -1,3 +1,5 @@
-expe_log_reweighing/
-expe_log_sklearn/
-expe_log_baseline/
+# Ignorer les poids des modèles
+*.ckpt
+
+# Ignorer les historiques d'entraînement
+*/tensorboard_logs/
